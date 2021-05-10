@@ -126,7 +126,7 @@ async def on_message(message):
             #the space after $delMsg is optional b/c we're converting to an int anyways.
             index = int(msg.split("$delMsg ",1) [1])
             delete_encouragements(index)
-            encouragements = db["encouragements"]
+            encouragements = replit.database.to_primitive(db["encouragements"])
         await message.channel.send(f"An entry was deleted.\nEncouragements: {encouragements}")
 
     if db["responding"]:
