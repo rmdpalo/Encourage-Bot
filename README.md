@@ -1,8 +1,6 @@
 # Encourage-Bot
 
-I made this bot to help bring myself up when I'm feeling down, and if other people might need it to.
-
-[Video Demo](https://twitter.com/MigsDev/status/1391890770781605888)
+I made this bot to help bring myself up when I'm feeling down, and if other people might need it too.
 
 [Add the bot to your discord server!](https://discord.com/api/oauth2/authorize?client_id=841365676442779709&permissions=2148002880&scope=bot)
 
